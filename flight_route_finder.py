@@ -46,3 +46,4 @@ route, total_cost = ucs_cheapest_route(
 
 print("Cheapest route:", route)
 print("Total ticket cost:", total_cost)
+print("Total routes explored:", routes_explored)
