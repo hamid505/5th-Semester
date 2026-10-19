@@ -1,11 +1,12 @@
 from collections import deque
 network = {
-    "Ali": ["Bilal", "Sara"],
+    "Ali": ["Bilal", "Sara", "Ahmed"],
     "Bilal": ["Ali", "Zara"],
     "Sara": ["Ali", "Omar"],
     "Zara": ["Bilal", "Hira"],
     "Omar": ["Sara"],
-    "Hira": ["Zara"]
+    "Hira": ["Zara"],
+    "Ahmed": ["Ali"]
 }
 
 def bfs_shortest_path(graph, start, goal):
